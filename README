@@ -1,0 +1,24 @@
+Simple Turing Machine simulator. Name of the input file should be given as an argument.
+
+Blank symbol is '-'.
+Tape alphabet is [a-z] + [A-Z] + [0-9] + '-'.
+State can be any string.
+Moves are {L (left),R (right), S (stay)}.
+
+Input should be in the form:
+
+In the first line should be a start state.
+In the second line should be end states (seperate by spaces).
+In next lines should be instructions of transition function (machine state, symbol under the head, new machine state, new symbol, move).
+After one empty line there should be string describing a tape.
+
+Machine starts on the first symbol of a tape.
+
+Example of an input:
+A
+B
+A 1 A 0 R
+A 0 A 1 R
+A - B - S
+
+01101100011
